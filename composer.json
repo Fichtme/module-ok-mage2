@@ -1,9 +1,9 @@
 {
-  "name": "okitcom/magento2",
+  "name": "okitcom/module-ok-mage2",
   "keywords": ["ok", "okit", "php", "oklib"],
   "description": "OK payment integration for Magento2",
   "require": {
-    "okitcom/ok-lib-php": "1.6.1"
+    "okitcom/ok-lib-php": "1.6.3"
   },
   "type": "magento2-module",
   "autoload": {
