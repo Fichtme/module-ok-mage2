@@ -1,0 +1,24 @@
+"Buy now","Koop met OK"
+"Log in with OK","Login met OK-app"
+"Quick checkout","Koop met OK"
+
+"OK Login failed","Inloggen met OK niet gelukt"
+"OK Login succeeded","Inloggen met OK gelukt"
+
+"OK Open Status OK","Aanmelden met OK is gelukt"
+"OK Open Status Not OK Expired","Je verzoek met OK is verlopen. Probeer opnieuw."
+"OK Open Status Not OK DeclinedByUser","Je hebt de betaling met OK afgewezen"
+"OK Open Status Not OK Cancelled","Je verzoek met OK  is geannuleerd."
+"OK Open Status OPEN","Je verzoek met OK is nog niet afgerond. Doe dit in je OK-app."
+"OK Open Status ERROR","Jouw aanvraag met OK is niet gelukt"
+"OK Open Status NOTFOUND","Aanmelden met OK niet gelukt"
+
+"OK Cash Status OK","Je betaling met OK is gelukt"
+"OK Cash Status NotOKExpired","Je verzoek met OK is verlopen. Probeer het opnieuw."
+"OK Cash Status NotOKDeclinedByUser", "Je hebt de betaling met OK afgewezen."
+"OK Cash Status NotOKCancelled","Je transactie met OK is geannuleerd"
+"OK Cash Status OPEN","Je transactie met OK is nog niet afgerond. Doe dit in je OK-app."
+"OK Cash Status ERROR","Betaling met OK is niet gelukt"
+"OK Cash Status NOTFOUND","Je betaling is niet gevonden"
+
+"View transaction in OK Works", "Bekijk transacties in OK Works"

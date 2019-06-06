@@ -1,0 +1,17 @@
+{
+  "name": "okitcom/magento2",
+  "keywords": ["ok", "okit", "php", "oklib"],
+  "description": "OK payment integration for Magento2",
+  "require": {
+    "okitcom/ok-lib-php": "1.6.1"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Okitcom\\OkLibMagento\\": ""
+    }
+  }
+}
