@@ -1,5 +1,5 @@
 {
-  "name": "fichtme/module-ok-mage2",
+  "name": "notive/module-ok-payment",
   "keywords": ["ok", "okit", "php", "oklib"],
   "description": "OK payment integration for Magento2",
   "require": {
