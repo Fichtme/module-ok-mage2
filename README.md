@@ -1,4 +1,4 @@
-Magento 2 OK Payment module
+Magento 2 OK module
 ==========================
 This is a Magento 2 composer plugin to implement OK checkout and authentication functionality.
 
@@ -15,7 +15,7 @@ Documentation
 
 Install plugin with composer:
 ```bash
-composer req notive/module-ok-payment
+composer req notive/ok-app-magento2
 ```
 
 After succesful composer installation run:
@@ -41,22 +41,10 @@ After the installation was successful, the plugin's functionality is disabled by
 
 Choose the production environment and fill in the 'Open key' and 'Cash key' provided by OK support.
 
-## Using the OK Cash webhook
-The OK Cash service provides a functionality to notify the website when a transaction has reached a 
- final state in the form of a webhook.
-
-The plugin automatically provides an endpoint in the website to listen for callbacks from OK. 
- However, the url of this endpoint must be provided in the Cash service in OK Works. The url must 
- use `https` and looks as follows:
-```
-Template: {base_url_secure}/oklib/callback/cash
-Example:  https://magento2.ok.app/oklib/callback/cash
-```
-
 ## Credits
 
 - [Henny Krijnen](https://github.com/Fichtme)
-- [All Contributors](https://github.com/notive/module-ok-payment/graphs/contributors)
+- [All Contributors](https://github.com/notive/ok-app-magento2/graphs/contributors)
 - [Original Contributors](https://github.com/okitcom/ok-lib-magento-2/graphs/contributors)
 
 *Please add your name to the list whe doing a pull request.*
