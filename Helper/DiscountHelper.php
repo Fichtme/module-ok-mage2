@@ -150,7 +150,7 @@ class DiscountHelper
             throw new \RuntimeException(sprintf('Image "%s" was not found', $newImagePath));
         }
 
-        return $imageName;
+        return $newImagePath;
     }
 
     /**
