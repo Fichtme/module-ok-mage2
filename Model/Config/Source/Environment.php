@@ -20,6 +20,10 @@ class Environment implements ArrayInterface
     public function toOptionArray() {
         return [
             [
+                "value" => 'beta',
+                "label" => 'Beta'
+            ],
+            [
                 "value" => 'development',
                 "label" => 'Development'
             ],
