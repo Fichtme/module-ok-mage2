@@ -85,7 +85,8 @@ class ConfigHelper extends AbstractHelper
         $map = [
             "production" => "secure",
 //            "development" => "local",
-            "development" => "beta",
+            "development" => "local",
+            "beta" => "beta",
             "alpha" => "alpha",
             "test" => "test"
         ];

@@ -10,6 +10,7 @@ namespace Okitcom\OkLibMagento\Controller;
 use Magento\Framework\App\Action\Action;
 use Magento\Framework\Exception\LocalizedException;
 use OK\Credentials\Environment\DevelopmentEnvironment;
+use OK\Credentials\Environment\BetaEnvironment;
 use OK\Credentials\Environment\Environment;
 use OK\Credentials\Environment\ProductionEnvironment;
 use OK\Credentials\OpenCredentials;
@@ -94,6 +95,8 @@ abstract class OpenAction extends Action
                 return new DevelopmentEnvironment();
             case "production":
                 return new ProductionEnvironment();
+            case "beta":
+                return new BetaEnvironment();
             default:
                 throw new LocalizedException(__("Invalid OK environment"));
         }

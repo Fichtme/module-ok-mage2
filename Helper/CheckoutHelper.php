@@ -11,6 +11,7 @@ use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Framework\Exception\LocalizedException;
 use OK\Credentials\CashCredentials;
 use OK\Credentials\Environment\DevelopmentEnvironment;
+use OK\Credentials\Environment\BetaEnvironment;
 use OK\Credentials\Environment\ProductionEnvironment;
 use Okitcom\OkLibMagento\Model\Resource\Checkout\Collection;
 
@@ -142,6 +143,8 @@ class CheckoutHelper extends AbstractHelper
                 return new DevelopmentEnvironment();
             case "production":
                 return new ProductionEnvironment();
+            case "beta":
+                return new BetaEnvironment();
             default:
                 throw new LocalizedException(__("Invalid OK environment: " . $this->configHelper->getCheckoutConfig("environment")));
         }
