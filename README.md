@@ -1,5 +1,9 @@
 Magento 2 OK module
 ==========================
+
+[![Latest Stable Version](https://poser.pugx.org/notive/ok-app-magento2/version)](https://packagist.org/packages/notive/ok-app-magento2)
+[![Total Downloads](https://poser.pugx.org/notive/ok-app-magento2/downloads)](https://packagist.org/packages/notive/ok-app-magento2)
+
 This is a Magento 2 composer plugin to implement OK checkout and authentication functionality.
 
 Original project can be found: https://github.com/okitcom/ok-lib-magento-2
