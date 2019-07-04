@@ -251,6 +251,7 @@ abstract class CheckoutAction extends Action
                     ->setAmount(Amount::fromEuro($shippingPrice))
                     ->setVat(0)
                     ->setCurrency("EUR")
+                    ->setExcludedFromCampaigns(true)
                     ->build()
                 );
             }
