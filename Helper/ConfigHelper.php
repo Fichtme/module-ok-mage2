@@ -26,6 +26,7 @@ class ConfigHelper extends AbstractHelper
 
     const DATE_DB_FORMAT = 'Y-m-d H:i:s';
     const DATE_PENDING_OFFSET = ' -1 day'; // One day in the past
+    const MAX_PENDING_TIME = '-30 minutes';
     const PENDING_STATES = [
         "NewPendingTrigger", "NewPendingApproval"
     ];
