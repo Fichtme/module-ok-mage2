@@ -151,12 +151,15 @@ abstract class CheckoutAction extends Action
                 "_secure" => true,
                 "transaction" => $externalIdentifier
             ]);
+            
+            $quote->reserveOrderId();
 
             $transactionBuilder = (new TransactionBuilder())
                 ->setReference($quote->getId())
                 ->setRedirectUrl($redirectUrl)
                 ->setAmount(Amount::fromEuro($totalAmount))
                 ->setPermissions("TriggerPaymentInitiation")
+                ->setPurchaseId($quote->getReservedOrderId())
                 ->addAttribute(
                     (new AttributeBuilder())
                         ->setKey("name")
