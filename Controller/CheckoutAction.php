@@ -224,7 +224,7 @@ abstract class CheckoutAction extends Action
                     ->setQuantity($item->getQty())
                     ->setProductCode($item->getSku())
                     ->setDescription($item->getName())
-                    ->setAmount($itemPrice)
+                    ->setAmount(Amount::fromEuro($item->getPriceInclTax()))
                     ->setVat($tax->getCents())
                     ->setCurrency("EUR");
                 if ($item->getDiscountAmount() > 0) {
